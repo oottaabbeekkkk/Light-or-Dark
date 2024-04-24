@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: system-ui;
+}
+*::before, *::after {
+    box-sizing: inherit;
+}
+span, a, label {
+    display: inline-block;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+.all{
+    padding: 100px;
+    background-color: aquamarine;
+    min-height: 100dvh;
+    transition: 0.3s ease-in-out;
+}
+.p{
+    line-height: 1.6;
+    font-size: 20px;
+    color: blue;
+}
+.part2{
+    padding: 30px;
+}
+.part1{
+    text-align: right;
+}
+.div{
+    background-color: black;
+    padding: 10px;
+    width: 49%;
+    height: 100%;
+    border-radius: 40px;
+    transition: 0.3s ease-in-out;
+}
+.btn{
+    padding: 5px 5px;
+    width: 10%;
+    height: 70px;
+    border-radius: 40px;
+    border: 2px solid blue;
+    background-color: aqua;
+}
+.new{
+    background-color: black;
+}
+.new3{
+    background-color: blue;
+}
+.new2{
+    background-color: aqua;
+}
+.new1{
+    transform: translateX(50px);
+    background-color: blue;
+    /* animation: 0.3 yur infinite forwards; */
+}
+@keyframes yur {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(100px);
+    }
+}
